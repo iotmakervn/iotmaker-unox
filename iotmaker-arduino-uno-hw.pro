@@ -1,4 +1,4 @@
-update=Tue 02 Jan 2018 09:59:53 PM +07
+update=Sat 06 Jan 2018 10:47:27 AM +07
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,6 +25,16 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.2
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.15
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=assets/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=60
+ERC_TestSimilarLabels=1
 [eeschema]
 version=1
 LibDir=
@@ -61,13 +71,4 @@ LibName29=valves
 LibName30=lib/CH340G
 LibName31=lib/iotmaker-arduino-uno
 LibName32=lib/sw_push
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=assets/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=60
-ERC_TestSimilarLabels=1
+LibName33=lib/ch340e
