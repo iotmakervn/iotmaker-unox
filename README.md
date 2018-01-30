@@ -20,7 +20,9 @@ IoTMaker Arduino Uno:
 
 ### 3D
 
-[![IoTMaker Arduino Uno 3D](assets/iotmaker-arduino-uno-3d.png)](assets/iotmaker-arduino-uno-3d.stl)
+[![IoTMaker Arduino Uno 3D](assets/iotmaker-arduino-uno-3d1.png)](assets/iotmaker-arduino-uno-3d.stl)
+
+[![IoTMaker Arduino Uno 3D](assets/iotmaker-arduino-uno-3d2.png)](assets/iotmaker-arduino-uno-3d.stl)
 
 ### Pinout 
 
