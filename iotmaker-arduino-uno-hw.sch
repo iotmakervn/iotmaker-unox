@@ -356,7 +356,7 @@ L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C9
 U 1 1 5A4642CC
 P 4050 2575
 F 0 "C9" H 3959 2529 50  0000 R CNN
-F 1 "100nF" H 3959 2620 50  0000 R CNN
+F 1 "0R" H 3959 2620 50  0000 R CNN
 F 2 "footprint:C_0603" H 4050 2575 50  0001 C CNN
 F 3 "" H 4050 2575 50  0001 C CNN
 	1    4050 2575
@@ -617,7 +617,7 @@ L iotmaker-arduino-uno-hw-rescue:BARREL_JACK-RESCUE-iotmaker-arduino-uno-hw J1
 U 1 1 5A469D2D
 P 1475 7100
 F 0 "J1" H 1456 7425 50  0000 C CNN
-F 1 "BARREL_JACK" H 1456 7334 50  0000 C CNN
+F 1 "BARREL_JACK_5.5x2.1" H 1456 7334 50  0000 C CNN
 F 2 "footprint:BARREL_JACK" H 1475 7100 50  0001 C CNN
 F 3 "" H 1475 7100 50  0001 C CNN
 	1    1475 7100
@@ -1483,7 +1483,7 @@ L iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw R10
 U 1 1 5A4C375D
 P 3700 4975
 F 0 "R10" H 3641 4929 50  0000 R CNN
-F 1 "1k" H 3641 5020 50  0000 R CNN
+F 1 "560R" H 3641 5020 50  0000 R CNN
 F 2 "footprint:R_0603" H 3700 4975 50  0001 C CNN
 F 3 "" H 3700 4975 50  0001 C CNN
 	1    3700 4975
@@ -1542,10 +1542,6 @@ Wire Wire Line
 	8000 5500 8000 5400
 Wire Wire Line
 	8000 5750 8075 5750
-Wire Wire Line
-	8075 5750 8225 5750
-Wire Wire Line
-	8225 5750 8325 5750
 Connection ~ 8000 5750
 $Comp
 L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR040
@@ -1718,8 +1714,6 @@ Wire Wire Line
 	5575 5975 5650 5975
 Text GLabel 5575 6075 0    60   Input ~ 0
 PC6/RESET
-Text GLabel 9425 5650 1    60   Input ~ 0
-PB0
 $Comp
 L iotmaker-arduino-uno-hw-rescue:CONN_01X05-RESCUE-iotmaker-arduino-uno-hw J7
 U 1 1 5A4F047F
@@ -1836,8 +1830,6 @@ Wire Wire Line
 	10525 6100 10375 6100
 Wire Wire Line
 	10375 6100 10375 6150
-Text GLabel 10425 6000 0    60   Input ~ 0
-PD2
 Wire Wire Line
 	10425 6000 10525 6000
 Text GLabel 10500 4850 0    60   Input ~ 0
@@ -1953,7 +1945,7 @@ Wire Wire Line
 Text Notes 7600 6525 0    79   ~ 16
 BUTTON RESET
 Text Notes 8800 6525 0    79   ~ 16
-BUTTON PIN 8
+BUTTON PIN 2
 Text Notes 10100 6500 0    79   ~ 16
 HEADER DHT
 Text Notes 10025 5350 0    79   ~ 16
@@ -1982,4 +1974,10 @@ Text Notes 2175 4000 0    79   ~ 16
 UART
 Text Notes 3925 7750 0    79   ~ 16
 POWER
+Text GLabel 9425 5650 1    60   Input ~ 0
+PD2
+Text GLabel 10425 6000 0    60   Input ~ 0
+PD7
+Wire Wire Line
+	8075 5750 8325 5750
 $EndSCHEMATC
