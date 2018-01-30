@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# iotmaker-arduino-uno-hw-rescue:+3.3V-RESCUE-iotmaker-arduino-uno-hw
+# +3.3V-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:+3.3V-RESCUE-iotmaker-arduino-uno-hw #PWR 0 0 Y Y 1 F P
+DEF +3.3V-RESCUE-iotmaker-arduino-uno-hw #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "iotmaker-arduino-uno-hw-rescue:+3.3V-RESCUE-iotmaker-arduino-uno-hw" 0 140 50 H V C CNN
+F1 "+3.3V-RESCUE-iotmaker-arduino-uno-hw" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -16,11 +16,11 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw
+# +5V-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR 0 0 Y Y 1 F P
+DEF +5V-RESCUE-iotmaker-arduino-uno-hw #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw" 0 140 50 H V C CNN
+F1 "+5V-RESCUE-iotmaker-arduino-uno-hw" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -31,11 +31,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:ATMEGA328P-AU-RESCUE-iotmaker-arduino-uno-hw
+# ATMEGA328P-AU-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:ATMEGA328P-AU-RESCUE-iotmaker-arduino-uno-hw U 0 40 Y Y 1 F N
+DEF ATMEGA328P-AU-RESCUE-iotmaker-arduino-uno-hw U 0 40 Y Y 1 F N
 F0 "U" -750 1250 50 H V L BNN
-F1 "iotmaker-arduino-uno-hw-rescue:ATMEGA328P-AU-RESCUE-iotmaker-arduino-uno-hw" 400 -1400 50 H V L BNN
+F1 "ATMEGA328P-AU-RESCUE-iotmaker-arduino-uno-hw" 400 -1400 50 H V L BNN
 F2 "TQFP32" 0 0 50 H I C CIN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -75,11 +75,11 @@ X (PCINT21/OC0B/T1)PD5 9 1000 -1000 150 L 40 40 1 1 B
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:BARREL_JACK-RESCUE-iotmaker-arduino-uno-hw
+# BARREL_JACK-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:BARREL_JACK-RESCUE-iotmaker-arduino-uno-hw J 0 40 Y Y 1 F N
+DEF BARREL_JACK-RESCUE-iotmaker-arduino-uno-hw J 0 40 Y Y 1 F N
 F0 "J" 0 195 50 H V C CNN
-F1 "iotmaker-arduino-uno-hw-rescue:BARREL_JACK-RESCUE-iotmaker-arduino-uno-hw" 0 -155 50 H V C CNN
+F1 "BARREL_JACK-RESCUE-iotmaker-arduino-uno-hw" 0 -155 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -96,11 +96,11 @@ X ~ 3 300 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:CH340E-RESCUE-iotmaker-arduino-uno-hw
+# CH340E-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:CH340E-RESCUE-iotmaker-arduino-uno-hw U 0 50 Y Y 1 F N
+DEF CH340E-RESCUE-iotmaker-arduino-uno-hw U 0 50 Y Y 1 F N
 F0 "U" 0 360 60 H V C CNN
-F1 "iotmaker-arduino-uno-hw-rescue:CH340E-RESCUE-iotmaker-arduino-uno-hw" 0 0 60 H V C CNN
+F1 "CH340E-RESCUE-iotmaker-arduino-uno-hw" 0 0 60 H V C CNN
 F2 "" 0 -750 40 H I C CNN
 F3 "" 0 -200 60 H V C CNN
 DRAW
@@ -118,11 +118,11 @@ X RXD 9 700 100 200 L 60 60 1 1 I
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:CONN_01X03-RESCUE-iotmaker-arduino-uno-hw
+# CONN_01X03-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:CONN_01X03-RESCUE-iotmaker-arduino-uno-hw J 0 40 Y N 1 F N
+DEF CONN_01X03-RESCUE-iotmaker-arduino-uno-hw J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "iotmaker-arduino-uno-hw-rescue:CONN_01X03-RESCUE-iotmaker-arduino-uno-hw" 100 0 50 V V C CNN
+F1 "CONN_01X03-RESCUE-iotmaker-arduino-uno-hw" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -142,11 +142,11 @@ X P3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:CONN_01X04-RESCUE-iotmaker-arduino-uno-hw
+# CONN_01X04-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:CONN_01X04-RESCUE-iotmaker-arduino-uno-hw J 0 40 Y N 1 F N
+DEF CONN_01X04-RESCUE-iotmaker-arduino-uno-hw J 0 40 Y N 1 F N
 F0 "J" 0 250 50 H V C CNN
-F1 "iotmaker-arduino-uno-hw-rescue:CONN_01X04-RESCUE-iotmaker-arduino-uno-hw" 100 0 50 V V C CNN
+F1 "CONN_01X04-RESCUE-iotmaker-arduino-uno-hw" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -168,11 +168,11 @@ X P4 4 -200 -150 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:CONN_01X05-RESCUE-iotmaker-arduino-uno-hw
+# CONN_01X05-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:CONN_01X05-RESCUE-iotmaker-arduino-uno-hw J 0 40 Y N 1 F N
+DEF CONN_01X05-RESCUE-iotmaker-arduino-uno-hw J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
-F1 "iotmaker-arduino-uno-hw-rescue:CONN_01X05-RESCUE-iotmaker-arduino-uno-hw" 100 0 50 V V C CNN
+F1 "CONN_01X05-RESCUE-iotmaker-arduino-uno-hw" 100 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -196,11 +196,11 @@ X P5 5 -200 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:CONN_02X03-RESCUE-iotmaker-arduino-uno-hw
+# CONN_02X03-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:CONN_02X03-RESCUE-iotmaker-arduino-uno-hw J 0 1 Y N 1 F N
+DEF CONN_02X03-RESCUE-iotmaker-arduino-uno-hw J 0 1 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "iotmaker-arduino-uno-hw-rescue:CONN_02X03-RESCUE-iotmaker-arduino-uno-hw" 0 -200 50 H V C CNN
+F1 "CONN_02X03-RESCUE-iotmaker-arduino-uno-hw" 0 -200 50 H V C CNN
 F2 "" 0 -1200 50 H I C CNN
 F3 "" 0 -1200 50 H I C CNN
 $FPLIST
@@ -227,11 +227,11 @@ X P6 6 250 -100 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw
+# C_Small-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C 0 10 N N 1 F N
+DEF C_Small-RESCUE-iotmaker-arduino-uno-hw C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw" 10 -80 50 H V L CNN
+F1 "C_Small-RESCUE-iotmaker-arduino-uno-hw" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -245,11 +245,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:Crystal_GND24_Small-RESCUE-iotmaker-arduino-uno-hw
+# Crystal_GND24_Small-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:Crystal_GND24_Small-RESCUE-iotmaker-arduino-uno-hw Y 0 40 Y N 1 F N
+DEF Crystal_GND24_Small-RESCUE-iotmaker-arduino-uno-hw Y 0 40 Y N 1 F N
 F0 "Y" 50 175 50 H V L CNN
-F1 "iotmaker-arduino-uno-hw-rescue:Crystal_GND24_Small-RESCUE-iotmaker-arduino-uno-hw" 50 100 50 H V L CNN
+F1 "Crystal_GND24_Small-RESCUE-iotmaker-arduino-uno-hw" 50 100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -268,11 +268,11 @@ X 4 4 0 125 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:D_Small-RESCUE-iotmaker-arduino-uno-hw
+# D_Small-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:D_Small-RESCUE-iotmaker-arduino-uno-hw D 0 10 N N 1 F N
+DEF D_Small-RESCUE-iotmaker-arduino-uno-hw D 0 10 N N 1 F N
 F0 "D" -50 80 50 H V L CNN
-F1 "iotmaker-arduino-uno-hw-rescue:D_Small-RESCUE-iotmaker-arduino-uno-hw" -150 -80 50 H V L CNN
+F1 "D_Small-RESCUE-iotmaker-arduino-uno-hw" -150 -80 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -291,11 +291,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw
+# GND-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR 0 0 Y Y 1 F P
+DEF GND-RESCUE-iotmaker-arduino-uno-hw #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw" 0 -150 50 H V C CNN
+F1 "GND-RESCUE-iotmaker-arduino-uno-hw" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -304,11 +304,11 @@ X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:LED_Small-RESCUE-iotmaker-arduino-uno-hw
+# LED_Small-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:LED_Small-RESCUE-iotmaker-arduino-uno-hw D 0 10 N N 1 F N
+DEF LED_Small-RESCUE-iotmaker-arduino-uno-hw D 0 10 N N 1 F N
 F0 "D" -50 125 50 H V L CNN
-F1 "iotmaker-arduino-uno-hw-rescue:LED_Small-RESCUE-iotmaker-arduino-uno-hw" -175 -100 50 H V L CNN
+F1 "LED_Small-RESCUE-iotmaker-arduino-uno-hw" -175 -100 50 H V L CNN
 F2 "" 0 0 50 V I C CNN
 F3 "" 0 0 50 V I C CNN
 $FPLIST
@@ -326,11 +326,11 @@ X A 2 100 0 70 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:LM358-RESCUE-iotmaker-arduino-uno-hw
+# LM358-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:LM358-RESCUE-iotmaker-arduino-uno-hw U 0 20 Y Y 2 F N
+DEF LM358-RESCUE-iotmaker-arduino-uno-hw U 0 20 Y Y 2 F N
 F0 "U" 0 200 50 H V L CNN
-F1 "iotmaker-arduino-uno-hw-rescue:LM358-RESCUE-iotmaker-arduino-uno-hw" 0 -200 50 H V L CNN
+F1 "LM358-RESCUE-iotmaker-arduino-uno-hw" 0 -200 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -353,11 +353,11 @@ X ~ 7 300 0 100 L 50 50 2 1 O
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:NCP1117DT285G_MountingTab-RESCUE-iotmaker-arduino-uno-hw
+# NCP1117DT285G_MountingTab-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:NCP1117DT285G_MountingTab-RESCUE-iotmaker-arduino-uno-hw U 0 30 Y Y 1 F N
+DEF NCP1117DT285G_MountingTab-RESCUE-iotmaker-arduino-uno-hw U 0 30 Y Y 1 F N
 F0 "U" 0 225 50 H V C CNN
-F1 "iotmaker-arduino-uno-hw-rescue:NCP1117DT285G_MountingTab-RESCUE-iotmaker-arduino-uno-hw" 0 150 50 H V C CNN
+F1 "NCP1117DT285G_MountingTab-RESCUE-iotmaker-arduino-uno-hw" 0 150 50 H V C CNN
 F2 "TO_SOT_Packages_SMD:TO-263-3Lead" 50 -250 50 H I L CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -372,11 +372,11 @@ X VO 4 300 -100 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:Q_PMOS_GSD-RESCUE-iotmaker-arduino-uno-hw
+# Q_PMOS_GSD-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:Q_PMOS_GSD-RESCUE-iotmaker-arduino-uno-hw Q 0 0 Y N 1 F N
+DEF Q_PMOS_GSD-RESCUE-iotmaker-arduino-uno-hw Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
-F1 "iotmaker-arduino-uno-hw-rescue:Q_PMOS_GSD-RESCUE-iotmaker-arduino-uno-hw" 200 -50 50 H V L CNN
+F1 "Q_PMOS_GSD-RESCUE-iotmaker-arduino-uno-hw" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -404,11 +404,11 @@ X D 3 100 200 100 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw
+# R_Small-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw R 0 10 N N 1 F N
+DEF R_Small-RESCUE-iotmaker-arduino-uno-hw R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw" 30 -40 50 H V L CNN
+F1 "R_Small-RESCUE-iotmaker-arduino-uno-hw" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -421,11 +421,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:SW_PUSH-RESCUE-iotmaker-arduino-uno-hw
+# SW_PUSH-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:SW_PUSH-RESCUE-iotmaker-arduino-uno-hw SW 0 40 N N 1 F N
+DEF SW_PUSH-RESCUE-iotmaker-arduino-uno-hw SW 0 40 N N 1 F N
 F0 "SW" 10 120 50 H V C CNN
-F1 "iotmaker-arduino-uno-hw-rescue:SW_PUSH-RESCUE-iotmaker-arduino-uno-hw" 200 150 50 H V C CNN
+F1 "SW_PUSH-RESCUE-iotmaker-arduino-uno-hw" 200 150 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -438,11 +438,11 @@ X 4 4 150 -75 100 L 60 60 0 1 P I
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:USB_A-RESCUE-iotmaker-arduino-uno-hw
+# USB_A-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:USB_A-RESCUE-iotmaker-arduino-uno-hw J 0 40 Y Y 1 F N
+DEF USB_A-RESCUE-iotmaker-arduino-uno-hw J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
-F1 "iotmaker-arduino-uno-hw-rescue:USB_A-RESCUE-iotmaker-arduino-uno-hw" -200 350 50 H V L CNN
+F1 "USB_A-RESCUE-iotmaker-arduino-uno-hw" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
 F3 "" 150 -50 50 H I C CNN
 $FPLIST
@@ -471,11 +471,11 @@ X Shield 5 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:VCC-RESCUE-iotmaker-arduino-uno-hw
+# VCC-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:VCC-RESCUE-iotmaker-arduino-uno-hw #PWR 0 0 Y Y 1 F P
+DEF VCC-RESCUE-iotmaker-arduino-uno-hw #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "iotmaker-arduino-uno-hw-rescue:VCC-RESCUE-iotmaker-arduino-uno-hw" 0 150 50 H V C CNN
+F1 "VCC-RESCUE-iotmaker-arduino-uno-hw" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -485,11 +485,11 @@ X VCC 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# iotmaker-arduino-uno-hw-rescue:iotmaker-arduino-uno-RESCUE-iotmaker-arduino-uno-hw
+# iotmaker-arduino-uno-RESCUE-iotmaker-arduino-uno-hw
 #
-DEF iotmaker-arduino-uno-hw-rescue:iotmaker-arduino-uno-RESCUE-iotmaker-arduino-uno-hw S 0 40 Y Y 1 F N
+DEF iotmaker-arduino-uno-RESCUE-iotmaker-arduino-uno-hw S 0 40 Y Y 1 F N
 F0 "S" -200 0 60 H V C CNN
-F1 "iotmaker-arduino-uno-hw-rescue:iotmaker-arduino-uno-RESCUE-iotmaker-arduino-uno-hw" -200 0 60 H V C CNN
+F1 "iotmaker-arduino-uno-RESCUE-iotmaker-arduino-uno-hw" -200 0 60 H V C CNN
 F2 "" -200 0 60 H I C CNN
 F3 "" -200 0 60 H I C CNN
 DRAW

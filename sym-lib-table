@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name iotmaker-arduino-uno-hw-rescue)(type Legacy)(uri ${KIPRJMOD}/iotmaker-arduino-uno-hw-rescue.lib)(options "")(descr ""))
+)
