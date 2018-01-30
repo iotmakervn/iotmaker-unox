@@ -1,37 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:CH340G
-LIBS:iotmaker-arduino-uno
-LIBS:sw_push
-LIBS:ch340e
+EESchema Schematic File Version 4
 LIBS:iotmaker-arduino-uno-hw-cache
 EELAYER 26 0
 EELAYER END
@@ -48,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATMEGA328P-AU U2
+L iotmaker-arduino-uno-hw-rescue:ATMEGA328P-AU-RESCUE-iotmaker-arduino-uno-hw U2
 U 1 1 5A45E9D5
 P 5800 2800
 F 0 "U2" H 5850 4167 50  0000 C CNN
@@ -105,7 +72,7 @@ PD6
 Text GLabel 6900 4000 2    60   Input ~ 0
 PD7
 $Comp
-L GND #PWR01
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR01
 U 1 1 5A460BA4
 P 4800 4100
 F 0 "#PWR01" H 4800 3850 50  0001 C CNN
@@ -116,7 +83,7 @@ F 3 "" H 4800 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR02
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR02
 U 1 1 5A460C03
 P 4800 1600
 F 0 "#PWR02" H 4800 1450 50  0001 C CNN
@@ -131,7 +98,7 @@ AREF
 Text GLabel 10700 1850 2    60   Input ~ 0
 AREF
 $Comp
-L iotmaker-arduino-uno S1
+L iotmaker-arduino-uno-hw-rescue:iotmaker-arduino-uno-RESCUE-iotmaker-arduino-uno-hw S1
 U 1 1 5A461A71
 P 9600 2850
 F 0 "S1" H 9600 2975 60  0000 C CNN
@@ -162,7 +129,7 @@ PC5
 Text GLabel 9750 900  1    60   Input ~ 0
 PC4
 $Comp
-L +3.3V #PWR03
+L iotmaker-arduino-uno-hw-rescue:+3.3V-RESCUE-iotmaker-arduino-uno-hw #PWR03
 U 1 1 5A461CCD
 P 9450 700
 F 0 "#PWR03" H 9450 550 50  0001 C CNN
@@ -173,7 +140,7 @@ F 3 "" H 9450 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR04
 U 1 1 5A461D66
 P 9900 800
 F 0 "#PWR04" H 9900 550 50  0001 C CNN
@@ -184,7 +151,7 @@ F 3 "" H 9900 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR05
+L iotmaker-arduino-uno-hw-rescue:+3.3V-RESCUE-iotmaker-arduino-uno-hw #PWR05
 U 1 1 5A461DB0
 P 7750 2050
 F 0 "#PWR05" H 7750 1900 50  0001 C CNN
@@ -195,7 +162,7 @@ F 3 "" H 7750 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR06
 U 1 1 5A461DC1
 P 7950 2700
 F 0 "#PWR06" H 7950 2450 50  0001 C CNN
@@ -206,7 +173,7 @@ F 3 "" H 7950 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR07
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR07
 U 1 1 5A461DDB
 P 7600 1750
 F 0 "#PWR07" H 7600 1600 50  0001 C CNN
@@ -218,7 +185,7 @@ F 3 "" H 7600 1750 50  0001 C CNN
 $EndComp
 NoConn ~ 8500 1950
 $Comp
-L GND #PWR08
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR08
 U 1 1 5A461EE2
 P 11000 2650
 F 0 "#PWR08" H 11000 2400 50  0001 C CNN
@@ -249,7 +216,7 @@ PB0
 NoConn ~ 7200 1800
 NoConn ~ 7200 1700
 $Comp
-L C_Small C5
+L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C5
 U 1 1 5A46201D
 P 4800 2500
 F 0 "C5" H 4709 2454 50  0000 R CNN
@@ -260,7 +227,7 @@ F 3 "" H 4800 2500 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR09
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR09
 U 1 1 5A4620E6
 P 4800 2650
 F 0 "#PWR09" H 4800 2400 50  0001 C CNN
@@ -271,7 +238,7 @@ F 3 "" H 4800 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C3
+L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C3
 U 1 1 5A4622DF
 P 6250 900
 F 0 "C3" H 6159 854 50  0000 R CNN
@@ -282,7 +249,7 @@ F 3 "" H 6250 900 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L C_Small C2
+L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C2
 U 1 1 5A46230F
 P 5850 900
 F 0 "C2" H 5759 854 50  0000 R CNN
@@ -293,7 +260,7 @@ F 3 "" H 5850 900 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR010
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR010
 U 1 1 5A462517
 P 5850 1100
 F 0 "#PWR010" H 5850 850 50  0001 C CNN
@@ -304,7 +271,7 @@ F 3 "" H 5850 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C1
+L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C1
 U 1 1 5A462732
 P 5450 900
 F 0 "C1" H 5359 854 50  0000 R CNN
@@ -315,12 +282,12 @@ F 3 "" H 5450 900 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Crystal_GND24_Small Y1
+L iotmaker-arduino-uno-hw-rescue:Crystal_GND24_Small-RESCUE-iotmaker-arduino-uno-hw Y1
 U 1 1 5A462965
 P 5800 4550
 F 0 "Y1" H 5875 4475 50  0000 L CNN
 F 1 "16MHz_GND24" H 5850 4700 50  0000 L CNN
-F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm_HandSoldering" H 5800 4550 50  0001 C CNN
+F 2 "Crystals:Crystal_SMD_3225-4pin_3.2x2.5mm" H 5800 4550 50  0001 C CNN
 F 3 "" H 5800 4550 50  0001 C CNN
 	1    5800 4550
 	1    0    0    -1  
@@ -330,7 +297,7 @@ PB6
 Text GLabel 6900 2400 2    60   Input ~ 0
 PB7
 $Comp
-L GND #PWR011
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR011
 U 1 1 5A462BF2
 P 5800 4750
 F 0 "#PWR011" H 5800 4500 50  0001 C CNN
@@ -341,7 +308,7 @@ F 3 "" H 5800 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR012
 U 1 1 5A462D8B
 P 5800 4350
 F 0 "#PWR012" H 5800 4100 50  0001 C CNN
@@ -352,7 +319,7 @@ F 3 "" H 5800 4350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R1
+L iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw R1
 U 1 1 5A462F6E
 P 6025 4825
 F 0 "R1" H 6084 4871 50  0000 L CNN
@@ -363,7 +330,7 @@ F 3 "" H 6025 4825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C11
+L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C11
 U 1 1 5A463E9C
 P 1750 2850
 F 0 "C11" H 2000 2850 50  0000 R CNN
@@ -374,7 +341,7 @@ F 3 "" H 1750 2850 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L +5V #PWR013
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR013
 U 1 1 5A4642AB
 P 4050 2325
 F 0 "#PWR013" H 4050 2175 50  0001 C CNN
@@ -385,7 +352,7 @@ F 3 "" H 4050 2325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C9
+L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C9
 U 1 1 5A4642CC
 P 4050 2575
 F 0 "C9" H 3959 2529 50  0000 R CNN
@@ -396,7 +363,7 @@ F 3 "" H 4050 2575 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L R_Small R6
+L iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw R6
 U 1 1 5A464425
 P 3575 1900
 F 0 "R6" H 3725 1850 50  0000 R CNN
@@ -407,7 +374,7 @@ F 3 "" H 3575 1900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R8
+L iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw R8
 U 1 1 5A464691
 P 3700 1900
 F 0 "R8" H 3641 1854 50  0000 R CNN
@@ -418,7 +385,7 @@ F 3 "" H 3700 1900 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Small D3
+L iotmaker-arduino-uno-hw-rescue:LED_Small-RESCUE-iotmaker-arduino-uno-hw D3
 U 1 1 5A464966
 P 3575 1300
 F 0 "D3" V 3575 1500 50  0000 R CNN
@@ -429,7 +396,7 @@ F 3 "" V 3575 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED_Small D4
+L iotmaker-arduino-uno-hw-rescue:LED_Small-RESCUE-iotmaker-arduino-uno-hw D4
 U 1 1 5A464A0E
 P 3700 1300
 F 0 "D4" V 3700 1200 50  0000 R CNN
@@ -440,7 +407,7 @@ F 3 "" V 3700 1300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R5
+L iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw R5
 U 1 1 5A464AC6
 P 3575 1025
 F 0 "R5" H 3725 950 50  0000 R CNN
@@ -451,7 +418,7 @@ F 3 "" H 3575 1025 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R7
+L iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw R7
 U 1 1 5A464B26
 P 3700 1000
 F 0 "R7" H 3650 950 50  0000 R CNN
@@ -462,7 +429,7 @@ F 3 "" H 3700 1000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR014
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR014
 U 1 1 5A464BC3
 P 3700 800
 F 0 "#PWR014" H 3700 650 50  0001 C CNN
@@ -481,7 +448,7 @@ PC6/RESET
 Text GLabel 8400 2150 0    60   Input ~ 0
 PC6/RESET
 $Comp
-L USB_A J2
+L iotmaker-arduino-uno-hw-rescue:USB_A-RESCUE-iotmaker-arduino-uno-hw J2
 U 1 1 5A466A6F
 P 700 2550
 F 0 "J2" H 755 3017 50  0000 C CNN
@@ -492,7 +459,7 @@ F 3 "" H 850 2500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR015
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR015
 U 1 1 5A466E4A
 P 1100 1500
 F 0 "#PWR015" H 1100 1350 50  0001 C CNN
@@ -503,7 +470,7 @@ F 3 "" H 1100 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR016
 U 1 1 5A466F4D
 P 700 3100
 F 0 "#PWR016" H 700 2850 50  0001 C CNN
@@ -514,7 +481,7 @@ F 3 "" H 700 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM358 U3
+L iotmaker-arduino-uno-hw-rescue:LM358-RESCUE-iotmaker-arduino-uno-hw U3
 U 2 1 5A4675CC
 P 2050 5800
 F 0 "U3" H 2100 5950 50  0000 L CNN
@@ -525,7 +492,7 @@ F 3 "" H 2050 5800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L LM358 U3
+L iotmaker-arduino-uno-hw-rescue:LM358-RESCUE-iotmaker-arduino-uno-hw U3
 U 1 1 5A46766B
 P 2050 4850
 F 0 "U3" H 2150 4950 50  0000 L CNN
@@ -536,7 +503,7 @@ F 3 "" H 2050 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C7
+L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C7
 U 1 1 5A467B95
 P 6300 4800
 F 0 "C7" H 6208 4754 50  0000 R CNN
@@ -547,7 +514,7 @@ F 3 "" H 6300 4800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L C_Small C6
+L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C6
 U 1 1 5A467DEB
 P 5450 4800
 F 0 "C6" H 5359 4754 50  0000 R CNN
@@ -558,7 +525,7 @@ F 3 "" H 5450 4800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR017
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR017
 U 1 1 5A467F73
 P 5450 5100
 F 0 "#PWR017" H 5450 4850 50  0001 C CNN
@@ -569,7 +536,7 @@ F 3 "" H 5450 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR018
 U 1 1 5A468061
 P 6300 5050
 F 0 "#PWR018" H 6300 4800 50  0001 C CNN
@@ -580,7 +547,7 @@ F 3 "" H 6300 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR019
 U 1 1 5A46824E
 P 975 3200
 F 0 "#PWR019" H 975 2950 50  0001 C CNN
@@ -591,7 +558,7 @@ F 3 "" H 975 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_PMOS_GSD Q1
+L iotmaker-arduino-uno-hw-rescue:Q_PMOS_GSD-RESCUE-iotmaker-arduino-uno-hw Q1
 U 1 1 5A4687B7
 P 1000 1800
 F 0 "Q1" H 1206 1846 50  0000 L CNN
@@ -602,7 +569,7 @@ F 3 "" H 1000 1800 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L R_Small R2
+L iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw R2
 U 1 1 5A4693E4
 P 1300 5700
 F 0 "R2" H 1241 5654 50  0000 R CNN
@@ -613,7 +580,7 @@ F 3 "" H 1300 5700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R_Small R3
+L iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw R3
 U 1 1 5A469534
 P 1300 6050
 F 0 "R3" H 1241 6004 50  0000 R CNN
@@ -624,7 +591,7 @@ F 3 "" H 1300 6050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR020
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR020
 U 1 1 5A4697C6
 P 1300 6200
 F 0 "#PWR020" H 1300 5950 50  0001 C CNN
@@ -635,7 +602,7 @@ F 3 "" H 1300 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR021
+L iotmaker-arduino-uno-hw-rescue:+3.3V-RESCUE-iotmaker-arduino-uno-hw #PWR021
 U 1 1 5A4699DB
 P 1600 5600
 F 0 "#PWR021" H 1600 5450 50  0001 C CNN
@@ -646,7 +613,7 @@ F 3 "" H 1600 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BARREL_JACK J1
+L iotmaker-arduino-uno-hw-rescue:BARREL_JACK-RESCUE-iotmaker-arduino-uno-hw J1
 U 1 1 5A469D2D
 P 1475 7100
 F 0 "J1" H 1456 7425 50  0000 C CNN
@@ -657,7 +624,7 @@ F 3 "" H 1475 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR022
 U 1 1 5A469F23
 P 1900 5200
 F 0 "#PWR022" H 1900 4950 50  0001 C CNN
@@ -668,7 +635,7 @@ F 3 "" H 1900 5200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L +5V #PWR023
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR023
 U 1 1 5A46A067
 P 1950 6150
 F 0 "#PWR023" H 1950 6000 50  0001 C CNN
@@ -679,7 +646,7 @@ F 3 "" H 1950 6150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L D_Small D1
+L iotmaker-arduino-uno-hw-rescue:D_Small-RESCUE-iotmaker-arduino-uno-hw D1
 U 1 1 5A46A64C
 P 2125 7000
 F 0 "D1" H 2125 6795 50  0000 C CNN
@@ -692,7 +659,7 @@ $EndComp
 Text GLabel 1650 4750 0    60   Input ~ 0
 PB5
 $Comp
-L LED_Small D2
+L iotmaker-arduino-uno-hw-rescue:LED_Small-RESCUE-iotmaker-arduino-uno-hw D2
 U 1 1 5A46AF59
 P 2600 5250
 F 0 "D2" V 2600 5450 50  0000 R CNN
@@ -703,7 +670,7 @@ F 3 "" V 2600 5250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R4
+L iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw R4
 U 1 1 5A46B0A4
 P 2600 5000
 F 0 "R4" H 2541 4954 50  0000 R CNN
@@ -714,7 +681,7 @@ F 3 "" H 2600 5000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L +5V #PWR024
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR024
 U 1 1 5A46B6C6
 P 1950 4500
 F 0 "#PWR024" H 1950 4350 50  0001 C CNN
@@ -741,7 +708,7 @@ PD1/TXD
 Text GLabel 10700 3550 2    60   Input ~ 0
 PD0/RXD
 $Comp
-L NCP1117DT285G_MountingTab U5
+L iotmaker-arduino-uno-hw-rescue:NCP1117DT285G_MountingTab-RESCUE-iotmaker-arduino-uno-hw U5
 U 1 1 5A46F1FF
 P 3075 7000
 F 0 "U5" H 3075 7267 50  0000 C CNN
@@ -752,7 +719,7 @@ F 3 "" H 3075 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C12
+L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C12
 U 1 1 5A470224
 P 2375 7200
 F 0 "C12" H 2284 7154 50  0000 R CNN
@@ -763,7 +730,7 @@ F 3 "" H 2375 7200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L C_Small C15
+L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C15
 U 1 1 5A47077E
 P 3675 7250
 F 0 "C15" H 3584 7204 50  0000 R CNN
@@ -774,7 +741,7 @@ F 3 "" H 3675 7250 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR025
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR025
 U 1 1 5A470A46
 P 3075 7550
 F 0 "#PWR025" H 3075 7300 50  0001 C CNN
@@ -785,7 +752,7 @@ F 3 "" H 3075 7550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR026
+L iotmaker-arduino-uno-hw-rescue:VCC-RESCUE-iotmaker-arduino-uno-hw #PWR026
 U 1 1 5A470EC7
 P 1900 6775
 F 0 "#PWR026" H 1900 6625 50  0001 C CNN
@@ -796,7 +763,7 @@ F 3 "" H 1900 6775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR027
 U 1 1 5A47170C
 P 1825 7450
 F 0 "#PWR027" H 1825 7200 50  0001 C CNN
@@ -807,7 +774,7 @@ F 3 "" H 1825 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C16
+L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C16
 U 1 1 5A471F25
 P 3975 7250
 F 0 "C16" H 3883 7204 50  0000 R CNN
@@ -818,7 +785,7 @@ F 3 "" H 3975 7250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L NCP1117DT285G_MountingTab U4
+L iotmaker-arduino-uno-hw-rescue:NCP1117DT285G_MountingTab-RESCUE-iotmaker-arduino-uno-hw U4
 U 1 1 5A47240E
 P 5400 7050
 F 0 "U4" H 5400 7317 50  0000 C CNN
@@ -829,7 +796,7 @@ F 3 "" H 5400 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR028
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR028
 U 1 1 5A47259E
 P 3975 6850
 F 0 "#PWR028" H 3975 6700 50  0001 C CNN
@@ -840,7 +807,7 @@ F 3 "" H 3975 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR029
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR029
 U 1 1 5A47285A
 P 4950 6850
 F 0 "#PWR029" H 4950 6700 50  0001 C CNN
@@ -851,7 +818,7 @@ F 3 "" H 4950 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_Small C13
+L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C13
 U 1 1 5A4729B7
 P 4950 7200
 F 0 "C13" H 4859 7154 50  0000 R CNN
@@ -862,7 +829,7 @@ F 3 "" H 4950 7200 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L C_Small C14
+L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C14
 U 1 1 5A472AD5
 P 5950 7400
 F 0 "C14" H 5859 7354 50  0000 R CNN
@@ -873,7 +840,7 @@ F 3 "" H 5950 7400 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR030
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR030
 U 1 1 5A472F1D
 P 5400 7600
 F 0 "#PWR030" H 5400 7350 50  0001 C CNN
@@ -884,7 +851,7 @@ F 3 "" H 5400 7600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR031
+L iotmaker-arduino-uno-hw-rescue:+3.3V-RESCUE-iotmaker-arduino-uno-hw #PWR031
 U 1 1 5A473461
 P 5950 6950
 F 0 "#PWR031" H 5950 6800 50  0001 C CNN
@@ -899,7 +866,7 @@ Vcc
 Text GLabel 1300 5550 1    60   Input ~ 0
 Vcc
 $Comp
-L VCC #PWR032
+L iotmaker-arduino-uno-hw-rescue:VCC-RESCUE-iotmaker-arduino-uno-hw #PWR032
 U 1 1 5A4B1B40
 P 8400 2650
 F 0 "#PWR032" H 8400 2500 50  0001 C CNN
@@ -910,7 +877,7 @@ F 3 "" H 8400 2650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X04 J5
+L iotmaker-arduino-uno-hw-rescue:CONN_01X04-RESCUE-iotmaker-arduino-uno-hw J5
 U 1 1 5A4B3BEB
 P 10800 4800
 F 0 "J5" H 10878 4841 50  0000 L CNN
@@ -927,7 +894,7 @@ ADC7
 Text GLabel 8175 4600 0    60   Input ~ 0
 ADC7
 $Comp
-L +5V #PWR033
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR033
 U 1 1 5A4B6199
 P 10400 4550
 F 0 "#PWR033" H 10400 4400 50  0001 C CNN
@@ -938,7 +905,7 @@ F 3 "" H 10400 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR034
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR034
 U 1 1 5A4B62FC
 P 10100 5000
 F 0 "#PWR034" H 10100 4750 50  0001 C CNN
@@ -949,7 +916,7 @@ F 3 "" H 10100 5000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR035
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR035
 U 1 1 5A4B79E3
 P 8150 4375
 F 0 "#PWR035" H 8150 4225 50  0001 C CNN
@@ -962,7 +929,11 @@ $EndComp
 Wire Wire Line
 	4900 3800 4800 3800
 Wire Wire Line
-	4800 3800 4800 4100
+	4800 3800 4800 3900
+Wire Wire Line
+	4800 3900 4800 4000
+Wire Wire Line
+	4800 4000 4800 4100
 Wire Wire Line
 	4900 4000 4800 4000
 Connection ~ 4800 4000
@@ -970,7 +941,9 @@ Wire Wire Line
 	4900 3900 4800 3900
 Connection ~ 4800 3900
 Wire Wire Line
-	4750 2300 4900 2300
+	4750 2300 4800 2300
+Wire Wire Line
+	4800 2300 4900 2300
 Wire Wire Line
 	10700 1850 10600 1850
 Wire Wire Line
@@ -1006,9 +979,13 @@ Wire Wire Line
 Wire Wire Line
 	7600 2350 8500 2350
 Wire Wire Line
-	7600 1750 7600 2350
+	7600 1750 7600 1800
 Wire Wire Line
-	7950 2450 8500 2450
+	7600 1800 7600 2350
+Wire Wire Line
+	7950 2450 8350 2450
+Wire Wire Line
+	8350 2450 8500 2450
 Wire Wire Line
 	7950 2450 7950 2700
 Wire Wire Line
@@ -1035,7 +1012,11 @@ Connection ~ 4800 2300
 Wire Wire Line
 	4800 2000 4900 2000
 Wire Wire Line
-	4800 1600 4800 2000
+	4800 1600 4800 1700
+Wire Wire Line
+	4800 1700 4800 1800
+Wire Wire Line
+	4800 1800 4800 2000
 Wire Wire Line
 	4900 1700 4800 1700
 Connection ~ 4800 1700
@@ -1046,9 +1027,10 @@ Wire Wire Line
 	5850 750  5850 800 
 Wire Wire Line
 	6250 750  6250 800 
-Connection ~ 6250 750 
 Wire Wire Line
-	5850 1000 5850 1100
+	5850 1000 5850 1050
+Wire Wire Line
+	5850 1050 5850 1100
 Connection ~ 5850 1050
 Wire Wire Line
 	6250 1050 6250 1000
@@ -1058,9 +1040,17 @@ Wire Wire Line
 Wire Wire Line
 	6800 2400 6900 2400
 Wire Wire Line
-	5250 4550 5700 4550
+	5250 4550 5450 4550
 Wire Wire Line
-	5900 4550 6450 4550
+	5450 4550 5600 4550
+Wire Wire Line
+	5600 4550 5700 4550
+Wire Wire Line
+	5900 4550 6025 4550
+Wire Wire Line
+	6025 4550 6300 4550
+Wire Wire Line
+	6300 4550 6450 4550
 Wire Wire Line
 	5800 4425 5800 4350
 Wire Wire Line
@@ -1128,15 +1118,21 @@ Wire Wire Line
 Wire Wire Line
 	8400 2150 8500 2150
 Wire Wire Line
-	3575 1400 3575 1800
+	3575 1400 3575 1650
 Wire Wire Line
-	3700 1400 3700 1800
+	3575 1650 3575 1800
+Wire Wire Line
+	3700 1400 3700 1650
+Wire Wire Line
+	3700 1650 3700 1800
 Wire Wire Line
 	3575 1125 3575 1200
 Wire Wire Line
 	3700 1100 3700 1200
 Wire Wire Line
-	3700 800  3700 900 
+	3700 800  3700 850 
+Wire Wire Line
+	3700 850  3700 900 
 Wire Wire Line
 	3450 1650 3575 1650
 Connection ~ 3575 1650
@@ -1148,7 +1144,9 @@ Wire Wire Line
 Wire Wire Line
 	1000 2650 1900 2650
 Wire Wire Line
-	700  2950 700  3100
+	700  2950 700  3050
+Wire Wire Line
+	700  3050 700  3100
 Wire Wire Line
 	600  2950 600  3050
 Wire Wire Line
@@ -1169,7 +1167,9 @@ Wire Wire Line
 Wire Wire Line
 	1750 5900 1300 5900
 Wire Wire Line
-	1300 5800 1300 5950
+	1300 5800 1300 5900
+Wire Wire Line
+	1300 5900 1300 5950
 Connection ~ 1300 5900
 Wire Wire Line
 	1300 6200 1300 6150
@@ -1178,11 +1178,17 @@ Wire Wire Line
 Wire Wire Line
 	1600 5700 1750 5700
 Wire Wire Line
-	1950 5150 1950 5500
+	1950 5150 1950 5200
+Wire Wire Line
+	1950 5200 1950 5400
+Wire Wire Line
+	1950 5400 1950 5500
 Wire Wire Line
 	1950 6100 1950 6150
 Wire Wire Line
-	1775 7000 2025 7000
+	1775 7000 1900 7000
+Wire Wire Line
+	1900 7000 2025 7000
 Wire Wire Line
 	1650 4750 1750 4750
 Wire Wire Line
@@ -1191,7 +1197,9 @@ Wire Wire Line
 	2600 5400 2600 5350
 Connection ~ 1950 5400
 Wire Wire Line
-	2350 4850 2600 4850
+	2350 4850 2450 4850
+Wire Wire Line
+	2450 4850 2600 4850
 Wire Wire Line
 	2600 4850 2600 4900
 Wire Wire Line
@@ -1243,18 +1251,30 @@ Wire Wire Line
 Wire Wire Line
 	9550 600  9900 600 
 Wire Wire Line
-	2225 7000 2775 7000
+	2225 7000 2375 7000
+Wire Wire Line
+	2375 7000 2475 7000
+Wire Wire Line
+	2475 7000 2775 7000
 Wire Wire Line
 	2375 7000 2375 7100
 Wire Wire Line
 	3375 7000 3675 7000
 Wire Wire Line
-	3675 7000 3675 7150
+	3675 7000 3675 7100
 Wire Wire Line
-	3375 7100 3975 7100
+	3675 7100 3675 7150
+Wire Wire Line
+	3375 7100 3675 7100
+Wire Wire Line
+	3675 7100 3975 7100
 Connection ~ 3675 7100
 Wire Wire Line
-	3075 7300 3075 7550
+	3075 7300 3075 7400
+Wire Wire Line
+	3075 7400 3075 7500
+Wire Wire Line
+	3075 7500 3075 7550
 Connection ~ 2375 7000
 Wire Wire Line
 	2475 6800 2475 7000
@@ -1264,7 +1284,9 @@ Wire Wire Line
 Wire Wire Line
 	1775 7100 1825 7100
 Wire Wire Line
-	1825 7100 1825 7450
+	1825 7100 1825 7200
+Wire Wire Line
+	1825 7200 1825 7450
 Wire Wire Line
 	1775 7200 1825 7200
 Connection ~ 1825 7200
@@ -1276,19 +1298,31 @@ Connection ~ 3075 7500
 Wire Wire Line
 	3675 7350 3675 7400
 Wire Wire Line
-	3075 7400 3975 7400
+	3075 7400 3675 7400
+Wire Wire Line
+	3675 7400 3975 7400
 Connection ~ 3075 7400
 Wire Wire Line
-	3975 6850 3975 7150
+	3975 6850 3975 7100
+Wire Wire Line
+	3975 7100 3975 7150
 Connection ~ 3975 7100
 Wire Wire Line
-	4950 6850 4950 7100
+	4950 6850 4950 7050
+Wire Wire Line
+	4950 7050 4950 7100
 Wire Wire Line
 	4950 7050 5100 7050
 Wire Wire Line
-	5700 7050 6350 7050
+	5700 7050 5950 7050
 Wire Wire Line
-	5950 6950 5950 7300
+	5950 7050 6350 7050
+Wire Wire Line
+	5950 6950 5950 7050
+Wire Wire Line
+	5950 7050 5950 7150
+Wire Wire Line
+	5950 7150 5950 7300
 Wire Wire Line
 	5700 7150 5950 7150
 Connection ~ 5950 7150
@@ -1296,11 +1330,17 @@ Connection ~ 4950 7050
 Wire Wire Line
 	5950 7550 5950 7500
 Wire Wire Line
-	4950 7550 6350 7550
+	4950 7550 5400 7550
+Wire Wire Line
+	5400 7550 5950 7550
+Wire Wire Line
+	5950 7550 6350 7550
 Wire Wire Line
 	4950 7550 4950 7300
 Wire Wire Line
-	5400 7350 5400 7600
+	5400 7350 5400 7550
+Wire Wire Line
+	5400 7550 5400 7600
 Connection ~ 5400 7550
 Connection ~ 5950 7050
 Wire Wire Line
@@ -1330,7 +1370,7 @@ Wire Wire Line
 Wire Wire Line
 	8175 4600 8250 4600
 $Comp
-L GND #PWR036
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR036
 U 1 1 5A4B8093
 P 7700 4800
 F 0 "#PWR036" H 7700 4550 50  0001 C CNN
@@ -1353,9 +1393,11 @@ Out
 Wire Wire Line
 	700  1800 800  1800
 Wire Wire Line
-	5450 1050 6250 1050
+	5450 1050 5850 1050
+Wire Wire Line
+	5850 1050 6250 1050
 $Comp
-L +5V #PWR037
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR037
 U 1 1 5A4C0D22
 P 5450 700
 F 0 "#PWR037" H 5450 550 50  0001 C CNN
@@ -1366,14 +1408,18 @@ F 3 "" H 5450 700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5450 700  5450 800 
+	5450 700  5450 750 
 Wire Wire Line
-	5450 750  6250 750 
+	5450 750  5450 800 
+Wire Wire Line
+	5450 750  5850 750 
+Wire Wire Line
+	5850 750  6250 750 
 Connection ~ 5450 750 
 Wire Wire Line
 	5450 1050 5450 1000
 $Comp
-L SW_PUSH SW1
+L iotmaker-arduino-uno-hw-rescue:SW_PUSH-RESCUE-iotmaker-arduino-uno-hw SW1
 U 1 1 5A4C1C32
 P 8000 5950
 F 0 "SW1" V 8000 5975 50  0000 R CNN
@@ -1384,7 +1430,7 @@ F 3 "" H 8000 5950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L SW_PUSH SW2
+L iotmaker-arduino-uno-hw-rescue:SW_PUSH-RESCUE-iotmaker-arduino-uno-hw SW2
 U 1 1 5A4C1E96
 P 9125 5900
 F 0 "SW2" H 9125 6145 50  0000 C CNN
@@ -1395,7 +1441,7 @@ F 3 "" H 9125 5900 60  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L LED_Small D5
+L iotmaker-arduino-uno-hw-rescue:LED_Small-RESCUE-iotmaker-arduino-uno-hw D5
 U 1 1 5A4C2664
 P 6350 7450
 F 0 "D5" V 6350 7350 50  0000 R CNN
@@ -1406,7 +1452,7 @@ F 3 "" V 6350 7450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R9
+L iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw R9
 U 1 1 5A4C266A
 P 6350 7200
 F 0 "R9" H 6291 7154 50  0000 R CNN
@@ -1422,7 +1468,7 @@ Wire Wire Line
 	6350 7050 6350 7100
 Connection ~ 5950 7550
 $Comp
-L LED_Small D6
+L iotmaker-arduino-uno-hw-rescue:LED_Small-RESCUE-iotmaker-arduino-uno-hw D6
 U 1 1 5A4C3757
 P 3700 5275
 F 0 "D6" V 3700 5175 50  0000 R CNN
@@ -1433,7 +1479,7 @@ F 3 "" V 3700 5275 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R10
+L iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw R10
 U 1 1 5A4C375D
 P 3700 4975
 F 0 "R10" H 3641 4929 50  0000 R CNN
@@ -1448,7 +1494,7 @@ Wire Wire Line
 Text GLabel 3800 4775 2    60   Input ~ 0
 PD3
 $Comp
-L GND #PWR038
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR038
 U 1 1 5A4C50B0
 P 3700 5475
 F 0 "#PWR038" H 3700 5225 50  0001 C CNN
@@ -1467,7 +1513,7 @@ Wire Wire Line
 Text GLabel 8325 5750 1    60   Input ~ 0
 PC6/RESET
 $Comp
-L +5V #PWR039
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR039
 U 1 1 5A4B5922
 P 8000 5400
 F 0 "#PWR039" H 8000 5250 50  0001 C CNN
@@ -1478,7 +1524,7 @@ F 3 "" H 8000 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R11
+L iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw R11
 U 1 1 5A4B5A1D
 P 8000 5600
 F 0 "R11" H 7941 5554 50  0000 R CNN
@@ -1489,14 +1535,20 @@ F 3 "" H 8000 5600 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8000 5700 8000 5800
+	8000 5700 8000 5750
+Wire Wire Line
+	8000 5750 8000 5800
 Wire Wire Line
 	8000 5500 8000 5400
 Wire Wire Line
-	8000 5750 8325 5750
+	8000 5750 8075 5750
+Wire Wire Line
+	8075 5750 8225 5750
+Wire Wire Line
+	8225 5750 8325 5750
 Connection ~ 8000 5750
 $Comp
-L GND #PWR040
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR040
 U 1 1 5A4B6210
 P 8000 6200
 F 0 "#PWR040" H 8000 5950 50  0001 C CNN
@@ -1507,17 +1559,19 @@ F 3 "" H 8000 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8000 6100 8000 6200
+	8000 6100 8000 6150
+Wire Wire Line
+	8000 6150 8000 6200
 Wire Wire Line
 	8075 5750 8075 5800
 Connection ~ 8075 5750
 Wire Wire Line
 	8075 6100 8075 6150
 Wire Wire Line
-	8000 6150 8225 6150
+	8000 6150 8075 6150
 Connection ~ 8000 6150
 $Comp
-L GND #PWR041
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR041
 U 1 1 5A4B6D8D
 P 9125 6150
 F 0 "#PWR041" H 9125 5900 50  0001 C CNN
@@ -1528,9 +1582,11 @@ F 3 "" H 9125 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9125 6050 9125 6150
+	9125 6050 9125 6100
+Wire Wire Line
+	9125 6100 9125 6150
 $Comp
-L +5V #PWR042
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR042
 U 1 1 5A4B750A
 P 9125 5400
 F 0 "#PWR042" H 9125 5250 50  0001 C CNN
@@ -1541,7 +1597,7 @@ F 3 "" H 9125 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R12
+L iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw R12
 U 1 1 5A4B7510
 P 9125 5550
 F 0 "R12" H 9066 5504 50  0000 R CNN
@@ -1554,9 +1610,15 @@ $EndComp
 Wire Wire Line
 	9125 5450 9125 5400
 Wire Wire Line
-	9125 5650 9125 5750
+	9125 5650 9125 5700
 Wire Wire Line
-	9125 5700 9425 5700
+	9125 5700 9125 5750
+Wire Wire Line
+	9125 5700 9200 5700
+Wire Wire Line
+	9200 5700 9325 5700
+Wire Wire Line
+	9325 5700 9425 5700
 Connection ~ 9125 5700
 Wire Wire Line
 	9200 5750 9200 5700
@@ -1564,10 +1626,12 @@ Connection ~ 9200 5700
 Wire Wire Line
 	9200 6050 9200 6100
 Wire Wire Line
-	9125 6100 9325 6100
+	9125 6100 9200 6100
+Wire Wire Line
+	9200 6100 9325 6100
 Connection ~ 9125 6100
 $Comp
-L C_Small C17
+L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C17
 U 1 1 5A4B7B7C
 P 9325 5900
 F 0 "C17" H 9233 5854 50  0000 R CNN
@@ -1583,23 +1647,6 @@ Connection ~ 9325 5700
 Wire Wire Line
 	9325 6100 9325 6000
 Connection ~ 9200 6100
-$Comp
-L C_Small C4
-U 1 1 5A4B8079
-P 8225 5950
-F 0 "C4" H 8133 5904 50  0000 R CNN
-F 1 "100nF" H 8133 5995 50  0000 R CNN
-F 2 "footprint:C_0603" H 8225 5950 50  0001 C CNN
-F 3 "" H 8225 5950 50  0001 C CNN
-	1    8225 5950
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8225 5750 8225 5850
-Connection ~ 8225 5750
-Wire Wire Line
-	8225 6150 8225 6050
-Connection ~ 8075 6150
 Wire Notes Line
 	7500 450  7500 6550
 Wire Notes Line
@@ -1615,7 +1662,7 @@ Wire Notes Line
 Wire Notes Line
 	8700 4150 8700 6525
 $Comp
-L CONN_02X03 J6
+L iotmaker-arduino-uno-hw-rescue:CONN_02X03-RESCUE-iotmaker-arduino-uno-hw J6
 U 1 1 5A4BC7AE
 P 5900 5975
 F 0 "J6" H 5900 6290 50  0000 C CNN
@@ -1626,7 +1673,7 @@ F 3 "" H 5900 4775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR043
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR043
 U 1 1 5A4BD32F
 P 6325 5825
 F 0 "#PWR043" H 6325 5675 50  0001 C CNN
@@ -1645,7 +1692,7 @@ PB3
 Wire Wire Line
 	6250 5975 6150 5975
 $Comp
-L GND #PWR044
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR044
 U 1 1 5A4BD944
 P 6275 6100
 F 0 "#PWR044" H 6275 5850 50  0001 C CNN
@@ -1674,7 +1721,7 @@ PC6/RESET
 Text GLabel 9425 5650 1    60   Input ~ 0
 PB0
 $Comp
-L CONN_01X05 J7
+L iotmaker-arduino-uno-hw-rescue:CONN_01X05-RESCUE-iotmaker-arduino-uno-hw J7
 U 1 1 5A4F047F
 P 8450 4600
 F 0 "J7" H 8527 4641 50  0000 L CNN
@@ -1691,7 +1738,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 4500 7700 4800
 $Comp
-L +5V #PWR045
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR045
 U 1 1 5A4F0EB6
 P 8000 4700
 F 0 "#PWR045" H 8000 4550 50  0001 C CNN
@@ -1705,9 +1752,8 @@ Wire Wire Line
 	8000 4700 8250 4700
 Wire Wire Line
 	7700 4800 8250 4800
-Connection ~ 7700 4800
 $Comp
-L CONN_01X03 J3
+L iotmaker-arduino-uno-hw-rescue:CONN_01X03-RESCUE-iotmaker-arduino-uno-hw J3
 U 1 1 5A4B3824
 P 9600 4650
 F 0 "J3" H 9677 4691 50  0000 L CNN
@@ -1718,7 +1764,7 @@ F 3 "" H 9600 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR046
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR046
 U 1 1 5A4F1CDC
 P 9150 4650
 F 0 "#PWR046" H 9150 4500 50  0001 C CNN
@@ -1731,7 +1777,7 @@ $EndComp
 Wire Wire Line
 	9150 4650 9400 4650
 $Comp
-L GND #PWR047
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR047
 U 1 1 5A4F2015
 P 8900 4800
 F 0 "#PWR047" H 8900 4550 50  0001 C CNN
@@ -1750,7 +1796,7 @@ PB1
 Wire Wire Line
 	9325 4750 9400 4750
 $Comp
-L CONN_01X03 J8
+L iotmaker-arduino-uno-hw-rescue:CONN_01X03-RESCUE-iotmaker-arduino-uno-hw J8
 U 1 1 5A4F4011
 P 10725 6000
 F 0 "J8" H 10802 6041 50  0000 L CNN
@@ -1761,7 +1807,7 @@ F 3 "" H 10725 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR048
+L iotmaker-arduino-uno-hw-rescue:+5V-RESCUE-iotmaker-arduino-uno-hw #PWR048
 U 1 1 5A4F491F
 P 10400 5850
 F 0 "#PWR048" H 10400 5700 50  0001 C CNN
@@ -1776,7 +1822,7 @@ Wire Wire Line
 Wire Wire Line
 	10400 5900 10400 5850
 $Comp
-L GND #PWR049
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR049
 U 1 1 5A4F4C91
 P 10375 6150
 F 0 "#PWR049" H 10375 5900 50  0001 C CNN
@@ -1799,7 +1845,7 @@ PD4
 Text GLabel 10500 4950 0    60   Input ~ 0
 ADC6
 $Comp
-L CH340E U6
+L iotmaker-arduino-uno-hw-rescue:CH340E-RESCUE-iotmaker-arduino-uno-hw U6
 U 1 1 5A504B5F
 P 2600 2750
 F 0 "U6" H 2600 3237 60  0000 C CNN
@@ -1819,7 +1865,7 @@ Wire Wire Line
 	3700 2750 3300 2750
 Wire Wire Line
 	4050 2850 3300 2850
-Text GLabel 3400 2550 2    60   Input ~ 0
+Text GLabel 3375 2550 2    60   Input ~ 0
 V3
 Wire Wire Line
 	3575 925  3575 850 
@@ -1827,13 +1873,13 @@ Wire Wire Line
 	3575 850  3700 850 
 Connection ~ 3700 850 
 Wire Wire Line
-	3400 2550 3300 2550
+	3375 2550 3300 2550
 Text GLabel 2300 1275 1    60   Input ~ 0
 V3
 Wire Wire Line
 	2300 1275 2300 1400
 $Comp
-L GND #PWR050
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR050
 U 1 1 5A50950B
 P 2300 1650
 F 0 "#PWR050" H 2300 1400 50  0001 C CNN
@@ -1846,7 +1892,7 @@ $EndComp
 Wire Wire Line
 	2300 1650 2300 1600
 $Comp
-L C_Small C8
+L iotmaker-arduino-uno-hw-rescue:C_Small-RESCUE-iotmaker-arduino-uno-hw C8
 U 1 1 5A508FCB
 P 2300 1500
 F 0 "C8" H 2209 1454 50  0000 R CNN
@@ -1862,7 +1908,7 @@ Wire Wire Line
 	1850 2850 1900 2850
 NoConn ~ 1900 2950
 $Comp
-L R_Small R13
+L iotmaker-arduino-uno-hw-rescue:R_Small-RESCUE-iotmaker-arduino-uno-hw R13
 U 1 1 5A50A921
 P 3400 3100
 F 0 "R13" H 3350 3050 50  0000 R CNN
@@ -1873,7 +1919,7 @@ F 3 "" H 3400 3100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED_Small D7
+L iotmaker-arduino-uno-hw-rescue:LED_Small-RESCUE-iotmaker-arduino-uno-hw D7
 U 1 1 5A50A9B9
 P 3400 3350
 F 0 "D7" V 3400 3250 50  0000 R CNN
@@ -1890,7 +1936,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 2950 3400 3000
 $Comp
-L GND #PWR051
+L iotmaker-arduino-uno-hw-rescue:GND-RESCUE-iotmaker-arduino-uno-hw #PWR051
 U 1 1 5A50AD12
 P 3400 3500
 F 0 "#PWR051" H 3400 3250 50  0001 C CNN
