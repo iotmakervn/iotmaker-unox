@@ -30,6 +30,8 @@ IoTMaker Arduino Uno:
 
 [Download](./assets/iotmaker-arduino-uno-68,58x53,34mm.zip)
 
+[Download](./assets/gerber-4panel.zip)
+
 ### Remark
 
 This project was in development phase - we will remove this remark after release
