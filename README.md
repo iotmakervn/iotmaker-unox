@@ -30,7 +30,7 @@ IoTMaker Arduino Uno:
 
 [Download gerber sigle](./assets/iotmaker-arduino-uno-68,58x53,34mm.zip)
 
-[Download gerber 4panel](./assets/gerber-4panel.zip)
+[Download gerber panel](./assets/panel-iotmaker-arduino-uno.zip)
 
 ### Remark
 
