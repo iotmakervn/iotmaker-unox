@@ -1,8 +1,8 @@
-# iotmaker-arduino-uno-pcb
+# IoT Maker - UnoX
 
 ## Features
 
-IoTMaker Arduino Uno:  
+IoTMaker UnoX:  
 - Power input 6.5V to 12VDC - recomment 9V (1A/5V output) and 5V USB
 - Additional Button, LED, header for external module : variable, servo, common sensor.
 - Open hardware with CC-BY-SA license
@@ -37,5 +37,8 @@ IoTMaker Arduino Uno:
 This project was in development phase - we will remove this remark after release
 
 # License
+
+![license](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+
 
 
